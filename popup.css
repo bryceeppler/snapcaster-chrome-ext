@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    background-color: #1f2937;
+    color: white;
+}
+
+#panel {
+    text-align: left;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div {
+    margin-bottom: 4px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#version, #status {
+    font-weight: normal;
+}
